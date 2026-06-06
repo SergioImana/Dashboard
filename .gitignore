@@ -1,0 +1,15 @@
+# Base de datos Access — NO incluir en repositorio público
+*.accdb
+*.mdb
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
