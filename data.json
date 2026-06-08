@@ -1,0 +1,1333 @@
+{
+    "resumen": {
+        "total_petroleo": 38210534.54926048,
+        "total_gas": 68184057.41834731,
+        "total_agua": 0.0,
+        "eficiencia": 95.8
+    },
+    "historico": [
+        {
+            "fecha": "COBRA",
+            "petroleo": 0.0,
+            "gas": 1043.0,
+            "agua": 0.0
+        },
+        {
+            "fecha": "COLPA",
+            "petroleo": 280841.11,
+            "gas": 511763.88000000006,
+            "agua": 0.0
+        },
+        {
+            "fecha": "EL DORADO",
+            "petroleo": 0.0,
+            "gas": 124610.68999999999,
+            "agua": 0.0
+        },
+        {
+            "fecha": "ESCONDIDO",
+            "petroleo": 0.0,
+            "gas": 459004.1700000001,
+            "agua": 0.0
+        },
+        {
+            "fecha": "GUAIRUY",
+            "petroleo": 486666.0,
+            "gas": 0.0,
+            "agua": 0.0
+        },
+        {
+            "fecha": "H.SUAREZ ROCA",
+            "petroleo": 1170089.9300000009,
+            "gas": 111.52000000000001,
+            "agua": 0.0
+        },
+        {
+            "fecha": "ITATIQUI",
+            "petroleo": 0.0,
+            "gas": 0.0,
+            "agua": 0.0
+        },
+        {
+            "fecha": "KANATA",
+            "petroleo": 0.0,
+            "gas": 131923.56,
+            "agua": 0.0
+        },
+        {
+            "fecha": "KANATA FW",
+            "petroleo": 22602.0,
+            "gas": 431.0,
+            "agua": 0.0
+        },
+        {
+            "fecha": "KANATA NORTE",
+            "petroleo": 0.0,
+            "gas": 144737.71999999997,
+            "agua": 0.0
+        },
+        {
+            "fecha": "KATARI",
+            "petroleo": 0.0,
+            "gas": 0.0,
+            "agua": 0.0
+        },
+        {
+            "fecha": "LA VERTIENTE",
+            "petroleo": 0.0,
+            "gas": 222427.50000000003,
+            "agua": 0.0
+        },
+        {
+            "fecha": "LOS CUSIS",
+            "petroleo": 1195583.0000000005,
+            "gas": 0.0,
+            "agua": 0.0
+        },
+        {
+            "fecha": "LOS PENOCOS",
+            "petroleo": 726254.7199999996,
+            "gas": 0.0,
+            "agua": 0.0
+        },
+        {
+            "fecha": "LOS SAUCES",
+            "petroleo": 0.0,
+            "gas": 65391.84,
+            "agua": 0.0
+        },
+        {
+            "fecha": "LOS SURIS",
+            "petroleo": 0.0,
+            "gas": 27197.42000000002,
+            "agua": 0.0
+        },
+        {
+            "fecha": "MADREJONES",
+            "petroleo": 0.0,
+            "gas": 0.0,
+            "agua": 0.0
+        },
+        {
+            "fecha": "MARGARITA",
+            "petroleo": 0.0,
+            "gas": 678072.0,
+            "agua": 0.0
+        },
+        {
+            "fecha": "MONTEAGUDO",
+            "petroleo": 933182.1799999999,
+            "gas": 89815.99,
+            "agua": 0.0
+        },
+        {
+            "fecha": "TORO",
+            "petroleo": 530879.15,
+            "gas": 0.0,
+            "agua": 0.0
+        },
+        {
+            "fecha": "TUNDY",
+            "petroleo": 0.0,
+            "gas": 0.0,
+            "agua": 0.0
+        },
+        {
+            "fecha": "VIBORA",
+            "petroleo": 0.0,
+            "gas": 489554.46,
+            "agua": 0.0
+        },
+        {
+            "fecha": "VILLAMONTES",
+            "petroleo": 14.29,
+            "gas": 0.0,
+            "agua": 0.0
+        },
+        {
+            "fecha": "VUELTA GRANDE",
+            "petroleo": 0.0,
+            "gas": 3432210.879999999,
+            "agua": 0.0
+        },
+        {
+            "fecha": "YAPACANI",
+            "petroleo": 0.0,
+            "gas": 1432732.1600000015,
+            "agua": 0.0
+        },
+        {
+            "fecha": "ARROYO NEGRO",
+            "petroleo": 70686.40000000002,
+            "gas": 0.0,
+            "agua": 0.0
+        },
+        {
+            "fecha": "BERMEJO PROFUNDO",
+            "petroleo": 0.0,
+            "gas": 2015.79,
+            "agua": 0.0
+        },
+        {
+            "fecha": "BERMEJO SOMERO",
+            "petroleo": 316026.2700000001,
+            "gas": 0.0,
+            "agua": 0.0
+        },
+        {
+            "fecha": "BUENA VISTA",
+            "petroleo": 0.0,
+            "gas": 0.0,
+            "agua": 0.0
+        },
+        {
+            "fecha": "BULO BULO",
+            "petroleo": 0.0,
+            "gas": 2535771.4699999997,
+            "agua": 0.0
+        },
+        {
+            "fecha": "CAMATINDI",
+            "petroleo": 289.0,
+            "gas": 0.0,
+            "agua": 0.0
+        },
+        {
+            "fecha": "CAMBEITI",
+            "petroleo": 488928.0,
+            "gas": 0.0,
+            "agua": 0.0
+        },
+        {
+            "fecha": "CAMIRI",
+            "petroleo": 1132115.2099999995,
+            "gas": 0.0,
+            "agua": 0.0
+        },
+        {
+            "fecha": "CARANDA",
+            "petroleo": 256637.6,
+            "gas": 510080.37999999995,
+            "agua": 0.0
+        },
+        {
+            "fecha": "CARRASCO",
+            "petroleo": 0.0,
+            "gas": 92155.79000000002,
+            "agua": 0.0
+        },
+        {
+            "fecha": "CARRASCO FW",
+            "petroleo": 0.0,
+            "gas": 129884.28999999995,
+            "agua": 0.0
+        },
+        {
+            "fecha": "CASCABEL",
+            "petroleo": 0.0,
+            "gas": 10569.470000000001,
+            "agua": 0.0
+        },
+        {
+            "fecha": "CHACO SUR",
+            "petroleo": 6084.5,
+            "gas": 206686.88999999998,
+            "agua": 0.0
+        },
+        {
+            "fecha": "MONTECRISTO",
+            "petroleo": 37508.0,
+            "gas": 0.0,
+            "agua": 0.0
+        },
+        {
+            "fecha": "NARANJILLOS",
+            "petroleo": 0.0,
+            "gas": 284691.86,
+            "agua": 0.0
+        },
+        {
+            "fecha": "ÑUPUCO",
+            "petroleo": 20182.97,
+            "gas": 326282.66000000015,
+            "agua": 0.0
+        },
+        {
+            "fecha": "PALOMA",
+            "petroleo": 2598069.9701220696,
+            "gas": 576863.81,
+            "agua": 0.0
+        },
+        {
+            "fecha": "PATUJU",
+            "petroleo": 0.0,
+            "gas": 243593.21999999997,
+            "agua": 0.0
+        },
+        {
+            "fecha": "PATUJUSAL",
+            "petroleo": 2530930.22,
+            "gas": 0.0,
+            "agua": 0.0
+        },
+        {
+            "fecha": "PATUJUSAL OESTE",
+            "petroleo": 244994.27000000002,
+            "gas": 0.0,
+            "agua": 0.0
+        },
+        {
+            "fecha": "PERCHELES",
+            "petroleo": 0.0,
+            "gas": 2151.0,
+            "agua": 0.0
+        },
+        {
+            "fecha": "PORVENIR",
+            "petroleo": 0.0,
+            "gas": 585.7699999999999,
+            "agua": 0.0
+        },
+        {
+            "fecha": "SABALO",
+            "petroleo": 0.0,
+            "gas": 21395929.899999987,
+            "agua": 0.0
+        },
+        {
+            "fecha": "SAN ALBERTO",
+            "petroleo": 0.0,
+            "gas": 8570861.390000004,
+            "agua": 0.0
+        },
+        {
+            "fecha": "SAN ROQUE",
+            "petroleo": 0.0,
+            "gas": 368406.0,
+            "agua": 0.0
+        },
+        {
+            "fecha": "SIRARI",
+            "petroleo": 610.0,
+            "gas": 449506.8699999999,
+            "agua": 0.0
+        },
+        {
+            "fecha": "SUPUATI",
+            "petroleo": 500.67,
+            "gas": 2.46,
+            "agua": 0.0
+        },
+        {
+            "fecha": "SURUBI",
+            "petroleo": 5926717.137881635,
+            "gas": 70327.583,
+            "agua": 0.0
+        },
+        {
+            "fecha": "SURUBI BLOQUE BAJO",
+            "petroleo": 3653797.844284672,
+            "gas": 101947.47199999997,
+            "agua": 0.0
+        },
+        {
+            "fecha": "SURUBI NOROESTE",
+            "petroleo": 9493990.192246096,
+            "gas": 38655.909999999996,
+            "agua": 0.0
+        },
+        {
+            "fecha": "TACOBO",
+            "petroleo": 0.0,
+            "gas": 104127.69000000003,
+            "agua": 0.0
+        },
+        {
+            "fecha": "TAIGUATI",
+            "petroleo": 0.0,
+            "gas": 7931.240000000001,
+            "agua": 0.0
+        },
+        {
+            "fecha": "TATARENDA",
+            "petroleo": 1554488.6399999997,
+            "gas": 0.0,
+            "agua": 0.0
+        },
+        {
+            "fecha": "TIGRE",
+            "petroleo": 0.0,
+            "gas": 0.0,
+            "agua": 0.0
+        },
+        {
+            "fecha": "BOQUERON",
+            "petroleo": 18517.0,
+            "gas": 45931.43999999999,
+            "agua": 0.0
+        },
+        {
+            "fecha": "LA PEÑA",
+            "petroleo": 969815.8999999998,
+            "gas": 4160.64,
+            "agua": 0.0
+        },
+        {
+            "fecha": "RIO GRANDE",
+            "petroleo": 0.0,
+            "gas": 3132111.5300000003,
+            "agua": 0.0
+        },
+        {
+            "fecha": "BARREDERO",
+            "petroleo": 0.0,
+            "gas": 0.0,
+            "agua": 0.0
+        },
+        {
+            "fecha": "PALOMETAS NW",
+            "petroleo": 0.0,
+            "gas": 38235.82999999997,
+            "agua": 0.0
+        },
+        {
+            "fecha": "SANTA ROSA W",
+            "petroleo": 0.0,
+            "gas": 4201.689999999999,
+            "agua": 0.0
+        },
+        {
+            "fecha": "TAJIBO",
+            "petroleo": 0.0,
+            "gas": 190307.88999999993,
+            "agua": 0.0
+        },
+        {
+            "fecha": "HUACAYA",
+            "petroleo": 0.0,
+            "gas": 0.0,
+            "agua": 0.0
+        },
+        {
+            "fecha": "JUNIN",
+            "petroleo": 0.0,
+            "gas": 51791.02000000003,
+            "agua": 0.0
+        },
+        {
+            "fecha": "SANTA ROSA",
+            "petroleo": 0.0,
+            "gas": 60399.820000000036,
+            "agua": 0.0
+        },
+        {
+            "fecha": "EL PALMAR",
+            "petroleo": 0.0,
+            "gas": 5.0,
+            "agua": 0.0
+        },
+        {
+            "fecha": "CURICHE",
+            "petroleo": 0.0,
+            "gas": 269070.58,
+            "agua": 0.0
+        },
+        {
+            "fecha": "PALO MARCADO",
+            "petroleo": 0.0,
+            "gas": 107448.19000000006,
+            "agua": 0.0
+        },
+        {
+            "fecha": "RIO SECO",
+            "petroleo": 0.0,
+            "gas": 0.0,
+            "agua": 0.0
+        },
+        {
+            "fecha": "ITAU",
+            "petroleo": 0.0,
+            "gas": 986455.9899999999,
+            "agua": 0.0
+        },
+        {
+            "fecha": "AQUIO",
+            "petroleo": 0.0,
+            "gas": 841412.1699999997,
+            "agua": 0.0
+        },
+        {
+            "fecha": "EL DORADO SUR",
+            "petroleo": 0.0,
+            "gas": 234630.99999999977,
+            "agua": 0.0
+        },
+        {
+            "fecha": "CARRASCO ESTE",
+            "petroleo": 0.0,
+            "gas": 21462.26,
+            "agua": 0.0
+        },
+        {
+            "fecha": "MARGARITA-HUACAYA",
+            "petroleo": 0.0,
+            "gas": 13766813.190000009,
+            "agua": 0.0
+        },
+        {
+            "fecha": "INCAHUASI",
+            "petroleo": 0.0,
+            "gas": 3954988.5800405494,
+            "agua": 0.0
+        },
+        {
+            "fecha": "WARNES",
+            "petroleo": 0.0,
+            "gas": 584.8600000000007,
+            "agua": 0.0
+        },
+        {
+            "fecha": "CAIGUA",
+            "petroleo": 0.0,
+            "gas": 17065.399999999994,
+            "agua": 0.0
+        },
+        {
+            "fecha": "EL DORADO OESTE",
+            "petroleo": 0.0,
+            "gas": 60657.36999999999,
+            "agua": 0.0
+        },
+        {
+            "fecha": "JUNIN ESTE",
+            "petroleo": 0.0,
+            "gas": 43621.80000000001,
+            "agua": 0.0
+        },
+        {
+            "fecha": "COLORADO",
+            "petroleo": 0.0,
+            "gas": 167917.46000000002,
+            "agua": 0.0
+        },
+        {
+            "fecha": "MARGARITA-HUACAYA (SBL)",
+            "petroleo": 0.0,
+            "gas": 16025.44,
+            "agua": 0.0
+        },
+        {
+            "fecha": "COLORADO SUR",
+            "petroleo": 0.0,
+            "gas": 33605.469999999994,
+            "agua": 0.0
+        },
+        {
+            "fecha": "BOQUERON NORTE",
+            "petroleo": 3075177.182686953,
+            "gas": 26176.96,
+            "agua": 0.0
+        },
+        {
+            "fecha": "ITAGUAZURENDA",
+            "petroleo": 0.0,
+            "gas": 0.0,
+            "agua": 0.0
+        },
+        {
+            "fecha": "PTJ-WX1",
+            "petroleo": 1126.8,
+            "gas": 5206.170000000002,
+            "agua": 0.0
+        },
+        {
+            "fecha": "LOS SAUCES SUR",
+            "petroleo": 0.0,
+            "gas": 96324.92,
+            "agua": 0.0
+        },
+        {
+            "fecha": "LOS MONOS",
+            "petroleo": 0.0,
+            "gas": 0.0,
+            "agua": 0.0
+        },
+        {
+            "fecha": "ENCONADA",
+            "petroleo": 0.0,
+            "gas": 41151.789999999986,
+            "agua": 0.0
+        },
+        {
+            "fecha": "PALACIOS",
+            "petroleo": 0.0,
+            "gas": 64517.8,
+            "agua": 0.0
+        },
+        {
+            "fecha": "CHACO ESTE",
+            "petroleo": 185.13,
+            "gas": 0.0,
+            "agua": 0.0
+        },
+        {
+            "fecha": "BUY-X2",
+            "petroleo": 0.0,
+            "gas": 0.0,
+            "agua": 0.0
+        },
+        {
+            "fecha": "FLORIDA",
+            "petroleo": 0.0,
+            "gas": 0.0,
+            "agua": 0.0
+        },
+        {
+            "fecha": "PUERTO PALOS",
+            "petroleo": 0.0,
+            "gas": 51404.87999999998,
+            "agua": 0.0
+        },
+        {
+            "fecha": "YARARA",
+            "petroleo": 465456.8520390626,
+            "gas": 2352.263306884766,
+            "agua": 0.0
+        },
+        {
+            "fecha": "AGUARAGÜE CENTRO",
+            "petroleo": 0.0,
+            "gas": 0.0,
+            "agua": 0.0
+        },
+        {
+            "fecha": "SAN IGNACIO",
+            "petroleo": 0.0,
+            "gas": 4402.37,
+            "agua": 0.0
+        },
+        {
+            "fecha": "BOICOBO SUR X1",
+            "petroleo": 0.0,
+            "gas": 0.0,
+            "agua": 0.0
+        },
+        {
+            "fecha": "SARARENDA",
+            "petroleo": 0.0,
+            "gas": 0.0,
+            "agua": 0.0
+        },
+        {
+            "fecha": "YOPE-X1",
+            "petroleo": 0.0,
+            "gas": 0.0,
+            "agua": 0.0
+        },
+        {
+            "fecha": "ITACARAY",
+            "petroleo": 0.0,
+            "gas": 0.0,
+            "agua": 0.0
+        },
+        {
+            "fecha": "CHURUMAS",
+            "petroleo": 0.0,
+            "gas": 3558.9400000000005,
+            "agua": 0.0
+        },
+        {
+            "fecha": "REMANSO",
+            "petroleo": 793.3000000000001,
+            "gas": 0.0,
+            "agua": 0.0
+        },
+        {
+            "fecha": "IBB-X2",
+            "petroleo": 793.11,
+            "gas": 0.0,
+            "agua": 0.0
+        },
+        {
+            "fecha": "MAYAYA CENTRO",
+            "petroleo": 0.0,
+            "gas": 0.0,
+            "agua": 0.0
+        },
+        {
+            "fecha": "HUAYCO",
+            "petroleo": 0.0,
+            "gas": 0.0,
+            "agua": 0.0
+        },
+        {
+            "fecha": "BERMEJO - X46D",
+            "petroleo": 0.0,
+            "gas": 0.0,
+            "agua": 0.0
+        }
+    ],
+    "campos": [
+        {
+            "nombre": "COBRA",
+            "petroleo": 0.0,
+            "gas": 1043.0,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "COLPA",
+            "petroleo": 280841.11,
+            "gas": 511763.88000000006,
+            "estado": "Activo"
+        },
+        {
+            "nombre": "EL DORADO",
+            "petroleo": 0.0,
+            "gas": 124610.68999999999,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "ESCONDIDO",
+            "petroleo": 0.0,
+            "gas": 459004.1700000001,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "GUAIRUY",
+            "petroleo": 486666.0,
+            "gas": 0.0,
+            "estado": "Activo"
+        },
+        {
+            "nombre": "H.SUAREZ ROCA",
+            "petroleo": 1170089.9300000009,
+            "gas": 111.52000000000001,
+            "estado": "Activo"
+        },
+        {
+            "nombre": "ITATIQUI",
+            "petroleo": 0.0,
+            "gas": 0.0,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "KANATA",
+            "petroleo": 0.0,
+            "gas": 131923.56,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "KANATA FW",
+            "petroleo": 22602.0,
+            "gas": 431.0,
+            "estado": "Activo"
+        },
+        {
+            "nombre": "KANATA NORTE",
+            "petroleo": 0.0,
+            "gas": 144737.71999999997,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "KATARI",
+            "petroleo": 0.0,
+            "gas": 0.0,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "LA VERTIENTE",
+            "petroleo": 0.0,
+            "gas": 222427.50000000003,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "LOS CUSIS",
+            "petroleo": 1195583.0000000005,
+            "gas": 0.0,
+            "estado": "Activo"
+        },
+        {
+            "nombre": "LOS PENOCOS",
+            "petroleo": 726254.7199999996,
+            "gas": 0.0,
+            "estado": "Activo"
+        },
+        {
+            "nombre": "LOS SAUCES",
+            "petroleo": 0.0,
+            "gas": 65391.84,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "LOS SURIS",
+            "petroleo": 0.0,
+            "gas": 27197.42000000002,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "MADREJONES",
+            "petroleo": 0.0,
+            "gas": 0.0,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "MARGARITA",
+            "petroleo": 0.0,
+            "gas": 678072.0,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "MONTEAGUDO",
+            "petroleo": 933182.1799999999,
+            "gas": 89815.99,
+            "estado": "Activo"
+        },
+        {
+            "nombre": "TORO",
+            "petroleo": 530879.15,
+            "gas": 0.0,
+            "estado": "Activo"
+        },
+        {
+            "nombre": "TUNDY",
+            "petroleo": 0.0,
+            "gas": 0.0,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "VIBORA",
+            "petroleo": 0.0,
+            "gas": 489554.46,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "VILLAMONTES",
+            "petroleo": 14.29,
+            "gas": 0.0,
+            "estado": "Activo"
+        },
+        {
+            "nombre": "VUELTA GRANDE",
+            "petroleo": 0.0,
+            "gas": 3432210.879999999,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "YAPACANI",
+            "petroleo": 0.0,
+            "gas": 1432732.1600000015,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "ARROYO NEGRO",
+            "petroleo": 70686.40000000002,
+            "gas": 0.0,
+            "estado": "Activo"
+        },
+        {
+            "nombre": "BERMEJO PROFUNDO",
+            "petroleo": 0.0,
+            "gas": 2015.79,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "BERMEJO SOMERO",
+            "petroleo": 316026.2700000001,
+            "gas": 0.0,
+            "estado": "Activo"
+        },
+        {
+            "nombre": "BUENA VISTA",
+            "petroleo": 0.0,
+            "gas": 0.0,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "BULO BULO",
+            "petroleo": 0.0,
+            "gas": 2535771.4699999997,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "CAMATINDI",
+            "petroleo": 289.0,
+            "gas": 0.0,
+            "estado": "Activo"
+        },
+        {
+            "nombre": "CAMBEITI",
+            "petroleo": 488928.0,
+            "gas": 0.0,
+            "estado": "Activo"
+        },
+        {
+            "nombre": "CAMIRI",
+            "petroleo": 1132115.2099999995,
+            "gas": 0.0,
+            "estado": "Activo"
+        },
+        {
+            "nombre": "CARANDA",
+            "petroleo": 256637.6,
+            "gas": 510080.37999999995,
+            "estado": "Activo"
+        },
+        {
+            "nombre": "CARRASCO",
+            "petroleo": 0.0,
+            "gas": 92155.79000000002,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "CARRASCO FW",
+            "petroleo": 0.0,
+            "gas": 129884.28999999995,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "CASCABEL",
+            "petroleo": 0.0,
+            "gas": 10569.470000000001,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "CHACO SUR",
+            "petroleo": 6084.5,
+            "gas": 206686.88999999998,
+            "estado": "Activo"
+        },
+        {
+            "nombre": "MONTECRISTO",
+            "petroleo": 37508.0,
+            "gas": 0.0,
+            "estado": "Activo"
+        },
+        {
+            "nombre": "NARANJILLOS",
+            "petroleo": 0.0,
+            "gas": 284691.86,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "ÑUPUCO",
+            "petroleo": 20182.97,
+            "gas": 326282.66000000015,
+            "estado": "Activo"
+        },
+        {
+            "nombre": "PALOMA",
+            "petroleo": 2598069.9701220696,
+            "gas": 576863.81,
+            "estado": "Activo"
+        },
+        {
+            "nombre": "PATUJU",
+            "petroleo": 0.0,
+            "gas": 243593.21999999997,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "PATUJUSAL",
+            "petroleo": 2530930.22,
+            "gas": 0.0,
+            "estado": "Activo"
+        },
+        {
+            "nombre": "PATUJUSAL OESTE",
+            "petroleo": 244994.27000000002,
+            "gas": 0.0,
+            "estado": "Activo"
+        },
+        {
+            "nombre": "PERCHELES",
+            "petroleo": 0.0,
+            "gas": 2151.0,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "PORVENIR",
+            "petroleo": 0.0,
+            "gas": 585.7699999999999,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "SABALO",
+            "petroleo": 0.0,
+            "gas": 21395929.899999987,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "SAN ALBERTO",
+            "petroleo": 0.0,
+            "gas": 8570861.390000004,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "SAN ROQUE",
+            "petroleo": 0.0,
+            "gas": 368406.0,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "SIRARI",
+            "petroleo": 610.0,
+            "gas": 449506.8699999999,
+            "estado": "Activo"
+        },
+        {
+            "nombre": "SUPUATI",
+            "petroleo": 500.67,
+            "gas": 2.46,
+            "estado": "Activo"
+        },
+        {
+            "nombre": "SURUBI",
+            "petroleo": 5926717.137881635,
+            "gas": 70327.583,
+            "estado": "Activo"
+        },
+        {
+            "nombre": "SURUBI BLOQUE BAJO",
+            "petroleo": 3653797.844284672,
+            "gas": 101947.47199999997,
+            "estado": "Activo"
+        },
+        {
+            "nombre": "SURUBI NOROESTE",
+            "petroleo": 9493990.192246096,
+            "gas": 38655.909999999996,
+            "estado": "Activo"
+        },
+        {
+            "nombre": "TACOBO",
+            "petroleo": 0.0,
+            "gas": 104127.69000000003,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "TAIGUATI",
+            "petroleo": 0.0,
+            "gas": 7931.240000000001,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "TATARENDA",
+            "petroleo": 1554488.6399999997,
+            "gas": 0.0,
+            "estado": "Activo"
+        },
+        {
+            "nombre": "TIGRE",
+            "petroleo": 0.0,
+            "gas": 0.0,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "BOQUERON",
+            "petroleo": 18517.0,
+            "gas": 45931.43999999999,
+            "estado": "Activo"
+        },
+        {
+            "nombre": "LA PEÑA",
+            "petroleo": 969815.8999999998,
+            "gas": 4160.64,
+            "estado": "Activo"
+        },
+        {
+            "nombre": "RIO GRANDE",
+            "petroleo": 0.0,
+            "gas": 3132111.5300000003,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "BARREDERO",
+            "petroleo": 0.0,
+            "gas": 0.0,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "PALOMETAS NW",
+            "petroleo": 0.0,
+            "gas": 38235.82999999997,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "SANTA ROSA W",
+            "petroleo": 0.0,
+            "gas": 4201.689999999999,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "TAJIBO",
+            "petroleo": 0.0,
+            "gas": 190307.88999999993,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "HUACAYA",
+            "petroleo": 0.0,
+            "gas": 0.0,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "JUNIN",
+            "petroleo": 0.0,
+            "gas": 51791.02000000003,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "SANTA ROSA",
+            "petroleo": 0.0,
+            "gas": 60399.820000000036,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "EL PALMAR",
+            "petroleo": 0.0,
+            "gas": 5.0,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "CURICHE",
+            "petroleo": 0.0,
+            "gas": 269070.58,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "PALO MARCADO",
+            "petroleo": 0.0,
+            "gas": 107448.19000000006,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "RIO SECO",
+            "petroleo": 0.0,
+            "gas": 0.0,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "ITAU",
+            "petroleo": 0.0,
+            "gas": 986455.9899999999,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "AQUIO",
+            "petroleo": 0.0,
+            "gas": 841412.1699999997,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "EL DORADO SUR",
+            "petroleo": 0.0,
+            "gas": 234630.99999999977,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "CARRASCO ESTE",
+            "petroleo": 0.0,
+            "gas": 21462.26,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "MARGARITA-HUACAYA",
+            "petroleo": 0.0,
+            "gas": 13766813.190000009,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "INCAHUASI",
+            "petroleo": 0.0,
+            "gas": 3954988.5800405494,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "WARNES",
+            "petroleo": 0.0,
+            "gas": 584.8600000000007,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "CAIGUA",
+            "petroleo": 0.0,
+            "gas": 17065.399999999994,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "EL DORADO OESTE",
+            "petroleo": 0.0,
+            "gas": 60657.36999999999,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "JUNIN ESTE",
+            "petroleo": 0.0,
+            "gas": 43621.80000000001,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "COLORADO",
+            "petroleo": 0.0,
+            "gas": 167917.46000000002,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "MARGARITA-HUACAYA (SBL)",
+            "petroleo": 0.0,
+            "gas": 16025.44,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "COLORADO SUR",
+            "petroleo": 0.0,
+            "gas": 33605.469999999994,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "BOQUERON NORTE",
+            "petroleo": 3075177.182686953,
+            "gas": 26176.96,
+            "estado": "Activo"
+        },
+        {
+            "nombre": "ITAGUAZURENDA",
+            "petroleo": 0.0,
+            "gas": 0.0,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "PTJ-WX1",
+            "petroleo": 1126.8,
+            "gas": 5206.170000000002,
+            "estado": "Activo"
+        },
+        {
+            "nombre": "LOS SAUCES SUR",
+            "petroleo": 0.0,
+            "gas": 96324.92,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "LOS MONOS",
+            "petroleo": 0.0,
+            "gas": 0.0,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "ENCONADA",
+            "petroleo": 0.0,
+            "gas": 41151.789999999986,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "PALACIOS",
+            "petroleo": 0.0,
+            "gas": 64517.8,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "CHACO ESTE",
+            "petroleo": 185.13,
+            "gas": 0.0,
+            "estado": "Activo"
+        },
+        {
+            "nombre": "BUY-X2",
+            "petroleo": 0.0,
+            "gas": 0.0,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "FLORIDA",
+            "petroleo": 0.0,
+            "gas": 0.0,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "PUERTO PALOS",
+            "petroleo": 0.0,
+            "gas": 51404.87999999998,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "YARARA",
+            "petroleo": 465456.8520390626,
+            "gas": 2352.263306884766,
+            "estado": "Activo"
+        },
+        {
+            "nombre": "AGUARAGÜE CENTRO",
+            "petroleo": 0.0,
+            "gas": 0.0,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "SAN IGNACIO",
+            "petroleo": 0.0,
+            "gas": 4402.37,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "BOICOBO SUR X1",
+            "petroleo": 0.0,
+            "gas": 0.0,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "SARARENDA",
+            "petroleo": 0.0,
+            "gas": 0.0,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "YOPE-X1",
+            "petroleo": 0.0,
+            "gas": 0.0,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "ITACARAY",
+            "petroleo": 0.0,
+            "gas": 0.0,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "CHURUMAS",
+            "petroleo": 0.0,
+            "gas": 3558.9400000000005,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "REMANSO",
+            "petroleo": 793.3000000000001,
+            "gas": 0.0,
+            "estado": "Activo"
+        },
+        {
+            "nombre": "IBB-X2",
+            "petroleo": 793.11,
+            "gas": 0.0,
+            "estado": "Activo"
+        },
+        {
+            "nombre": "MAYAYA CENTRO",
+            "petroleo": 0.0,
+            "gas": 0.0,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "HUAYCO",
+            "petroleo": 0.0,
+            "gas": 0.0,
+            "estado": "Inactivo"
+        },
+        {
+            "nombre": "BERMEJO - X46D",
+            "petroleo": 0.0,
+            "gas": 0.0,
+            "estado": "Inactivo"
+        }
+    ],
+    "ultima_actualizacion": "2026-06-08 10:29:34"
+}
