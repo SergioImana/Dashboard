@@ -670,6 +670,20 @@ function delta(a,b){
 function fmtG(mpc){return (mpc*MPC_M3/1e6).toFixed(1);}  // MPC raw → MM m³ display
 function fmtM3(m3){return (m3/1e6).toFixed(1);}           // m³ raw → MM m³ display
 function fmtK(v,d=0){return (v/1e3).toFixed(d);}
+// Formato numérico manual (independiente del locale del navegador):
+// punto "." como separador de miles, coma "," como separador decimal.
+// No usar toLocaleString('es-BO') porque algunos navegadores no tienen
+// los datos ICU completos para ese locale y caen al formato en-US
+// (coma de miles / punto decimal), invirtiendo la lectura de los números.
+function fmtNum(v,d=0){
+  v = Number(v)||0;
+  const neg = v < 0;
+  v = Math.abs(v);
+  const fixed = v.toFixed(d);
+  let [intPart, decPart] = fixed.split('.');
+  intPart = intPart.replace(/\B(?=(\d{3})+(?!\d))/g, '.');
+  return (neg?'-':'') + intPart + (decPart ? ','+decPart : '');
+}
 
 function popYears(ids,def='2024'){
   ids.forEach(id=>{
@@ -946,7 +960,7 @@ function renderResumen(){
     {icon:'🛢️',lbl:'Líquidos',val:fmtK(d.liq||0),unit:'M Barriles',d:delta(d.liq,p.liq),c:'#27ae60'},
     {icon:'💧',lbl:'Condensado',val:fmtK(d.cond||0),unit:'M Barriles',d:delta(d.cond,p.cond),c:'#00acc1'},
     {icon:'⚗️',lbl:'Petróleo',val:fmtK(d.pet||0),unit:'M Barriles',d:delta(d.pet,p.pet),c:'#e74c3c'},
-    {icon:'🧪',lbl:'GLP',val:Math.round(d.glp||0).toLocaleString('es-BO'),unit:'Ton. Métricas',d:delta(d.glp,p.glp),c:'#c8972a'},
+    {icon:'🧪',lbl:'GLP',val:fmtNum(d.glp||0),unit:'Ton. Métricas',d:delta(d.glp,p.glp),c:'#c8972a'},
   ];
   document.getElementById('krow').innerHTML=kpis.map(k=>`
     <div class="kcard"><div class="kaccent" style="background:${k.c}"></div>
@@ -1082,7 +1096,7 @@ function renderHistAnual(){
       +'<td>'+fmtK(d.liq||0)+'</td>'
       +'<td>'+fmtK(d.cond||0)+'</td>'
       +'<td>'+fmtK(d.pet||0)+'</td>'
-      +'<td>'+Math.round(d.glp||0).toLocaleString('es-BO')+'</td>'
+      +'<td>'+fmtNum(d.glp||0)+'</td>'
       +'<td>'+(delta(d.gas_m3,p.gas_m3)||'<span class="flat">—</span>')+'</td>'
       +'</tr>');
   });
@@ -1170,7 +1184,7 @@ function renderHistMensual(){
         +'<td>'+fmtK(md.liq||0,1)+'</td>'
         +'<td>'+fmtK(md.cond||0,1)+'</td>'
         +'<td>'+fmtK(md.pet||0,1)+'</td>'
-        +'<td>'+Math.round(md.glp||0).toLocaleString('es-BO')+'</td>'
+        +'<td>'+fmtNum(md.glp||0)+'</td>'
         +'</tr>');
     }
   });
@@ -1395,12 +1409,12 @@ function renderRanking(){
   const top10 = sorted.slice(0,10);
 
   const cfg={
-    gas:     {lbl:'Gas Natural', unit:'MM m³', disp:v=>(v/1e6).toFixed(2)},
-    liq:     {lbl:'Líquidos',    unit:'M BBL', disp:v=>(v/1e3).toFixed(1)},
-    cond:    {lbl:'Condensado',  unit:'M BBL', disp:v=>(v/1e3).toFixed(1)},
-    pet:     {lbl:'Petróleo',    unit:'M BBL', disp:v=>(v/1e3).toFixed(1)},
-    glp:     {lbl:'GLP',        unit:'TM',    disp:v=>Math.round(v).toLocaleString('es-BO')},
-    gasolina:{lbl:'Gasolina',    unit:'M BBL', disp:v=>(v/1e3).toFixed(1)},
+    gas:     {lbl:'Gas Natural', unit:'MM m³', disp:v=>+(v/1e6).toFixed(2)},
+    liq:     {lbl:'Líquidos',    unit:'M BBL', disp:v=>+(v/1e3).toFixed(1)},
+    cond:    {lbl:'Condensado',  unit:'M BBL', disp:v=>+(v/1e3).toFixed(1)},
+    pet:     {lbl:'Petróleo',    unit:'M BBL', disp:v=>+(v/1e3).toFixed(1)},
+    glp:     {lbl:'GLP',        unit:'TM',    disp:v=>Math.round(v)},
+    gasolina:{lbl:'Gasolina',    unit:'M BBL', disp:v=>+(v/1e3).toFixed(1)},
   }[vk];
 
   document.getElementById('rk-title').textContent=`Top 10 Campos — ${cfg.lbl}`;
@@ -1414,13 +1428,13 @@ function renderRanking(){
       labels:top10.map(([c])=>c),
       datasets:[{
         label:`${cfg.lbl} (${cfg.unit})`,
-        data:top10.map(([,v])=>+cfg.disp(v[sortKey]||0)),
+        data:top10.map(([,v])=>cfg.disp(v[sortKey]||0)),
         backgroundColor:PAL,borderRadius:6,borderSkipped:false,
       }]
     },
     options:{
       indexAxis:'y',responsive:true,maintainAspectRatio:false,
-      plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>`${c.parsed.x} ${cfg.unit}`}}},
+      plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>`${fmtNum(c.parsed.x)} ${cfg.unit}`}}},
       scales:{
         x:{grid:{color:'rgba(26,48,80,.4)'}},
         y:{grid:{display:false},ticks:{font:{size:12,weight:'600'},color:'#d4dde8'}}
@@ -1442,7 +1456,7 @@ function renderRanking(){
       <td>${((v.gas_m3||0)/1e6).toFixed(2)}</td>
       <td>${((v.cond||0)/1e3).toFixed(1)}</td>
       <td>${((v.pet||0)/1e3).toFixed(1)}</td>
-      <td>${(v.glp||0)>0?Math.round(v.glp).toLocaleString('es-BO'):'–'}</td>
+      <td>${(v.glp||0)>0?fmtNum(v.glp):'–'}</td>
       <td>${(v.gasolina||0)>0?((v.gasolina||0)/1e3).toFixed(1):'–'}</td>
       <td><div class="ibar"><div class="ibar-bg"><div class="ibar-fill" style="width:${((v.gas_m3||0)/totalGas*100).toFixed(0)}%;background:#c8972a"></div></div><span style="font-size:12px">${((v.gas_m3||0)/totalGas*100).toFixed(1)}%</span></div></td>
     </tr>`);
@@ -1595,22 +1609,22 @@ function renderMensual(){
     tot=tot.map((t,j)=>t+(m[j]||0));
     tb.insertAdjacentHTML('beforeend',`<tr>
       <td style="font-family:Rajdhani;font-weight:700">${MESES[mi-1]} ${y}</td>
-      <td>${((m[0]||0)*MPC_M3/1e6).toFixed(3)}</td>
-      <td>${Math.round(m[1]||0).toLocaleString('es-BO')}</td>
-      <td>${Math.round(m[2]||0).toLocaleString('es-BO')}</td>
-      <td>${Math.round(m[3]||0).toLocaleString('es-BO')}</td>
-      <td>${m[4]>0?Math.round(m[4]).toLocaleString('es-BO'):'–'}</td>
-      <td>${m[5]>0?Math.round(m[5]).toLocaleString('es-BO'):'–'}</td>
+      <td>${fmtNum((m[0]||0)*MPC_M3/1e6,3)}</td>
+      <td>${fmtNum(m[1]||0)}</td>
+      <td>${fmtNum(m[2]||0)}</td>
+      <td>${fmtNum(m[3]||0)}</td>
+      <td>${m[4]>0?fmtNum(m[4]):'–'}</td>
+      <td>${m[5]>0?fmtNum(m[5]):'–'}</td>
     </tr>`);
   }});
   tb.insertAdjacentHTML('beforeend',`<tr style="background:var(--surface2)">
     <td style="font-family:Rajdhani;font-weight:700;color:var(--gold3)">TOTAL</td>
-    <td style="font-weight:600;color:var(--heading)">${(tot[0]*MPC_M3/1e6).toFixed(2)}</td>
-    <td style="font-weight:600;color:var(--heading)">${Math.round(tot[1]).toLocaleString('es-BO')}</td>
-    <td style="font-weight:600;color:var(--heading)">${Math.round(tot[2]).toLocaleString('es-BO')}</td>
-    <td style="font-weight:600;color:var(--heading)">${Math.round(tot[3]).toLocaleString('es-BO')}</td>
-    <td style="font-weight:600;color:var(--heading)">${tot[4]>0?Math.round(tot[4]).toLocaleString('es-BO'):'–'}</td>
-    <td style="font-weight:600;color:var(--heading)">${tot[5]>0?Math.round(tot[5]).toLocaleString('es-BO'):'–'}</td>
+    <td style="font-weight:600;color:var(--heading)">${fmtNum(tot[0]*MPC_M3/1e6,2)}</td>
+    <td style="font-weight:600;color:var(--heading)">${fmtNum(tot[1])}</td>
+    <td style="font-weight:600;color:var(--heading)">${fmtNum(tot[2])}</td>
+    <td style="font-weight:600;color:var(--heading)">${fmtNum(tot[3])}</td>
+    <td style="font-weight:600;color:var(--heading)">${tot[4]>0?fmtNum(tot[4]):'–'}</td>
+    <td style="font-weight:600;color:var(--heading)">${tot[5]>0?fmtNum(tot[5]):'–'}</td>
   </tr>`);
 }
 
